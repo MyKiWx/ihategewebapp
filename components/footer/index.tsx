@@ -103,7 +103,7 @@ export default function SmallCentered() {
 
                     {/* TODO : add tooltip */}
                     <Stack direction={'row'} spacing={6}>
-                        <SocialButton label={'NextJS'} href={'https://nextjs.org/'}>
+                        {/* <SocialButton label={'NextJS'} href={'https://nextjs.org/'}>
                             <TbBrandNextjs />
                         </SocialButton>
                         <SocialButton label={'TypeScript'} href={'https://www.typescriptlang.org/'}>
@@ -114,7 +114,7 @@ export default function SmallCentered() {
                         </SocialButton>
                         <SocialButton label={'SiFirebase'} href={'https://firebase.google.com/'}>
                             <SiFirebase />
-                        </SocialButton>
+                        </SocialButton> */}
                     </Stack>
                 </Container>
             </Box>
