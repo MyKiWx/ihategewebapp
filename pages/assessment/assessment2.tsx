@@ -350,7 +350,7 @@ const Assessment2 = (props: Props) => {
                                                     justify='center'
                                                     align='center'
                                                 >
-                                                    {result >= 7 && result <= 17 ? <b>7 - 17</b> : <>7 - 17</>}
+                                                    {result >= 7 && result <= 12 ? <b>7 - 12</b> : <>7 - 12</>}
                                                 </Flex>
                                             </GridItem>
                                             <GridItem rowSpan={1} colSpan={8} bg=''>
@@ -359,7 +359,7 @@ const Assessment2 = (props: Props) => {
                                                     h='full'
                                                     align='center'
                                                 >
-                                                    {result >= 7 && result <= 17 ? <b>ปกติ/ไม่เครียด&nbsp;&nbsp;👈</b> : <>ปกติ/ไม่เครียด</>}
+                                                    {result >= 7 && result <= 12 ? <b>มีอาการของโรคซึมเศร้า ระดับน้อย&nbsp;&nbsp;👈</b> : <>มีอาการของโรคซึมเศร้า ระดับน้อย</>}
                                                 </Flex>
                                             </GridItem>
                                         </>
@@ -371,7 +371,7 @@ const Assessment2 = (props: Props) => {
                                                     justify='center'
                                                     align='center'
                                                 >
-                                                    {result >= 18 && result <= 25 ? <b>18 - 25</b> : <>18 - 25</>}
+                                                    {result >= 13 && result <= 18 ? <b>13 - 18</b> : <>13 - 18</>}
                                                 </Flex>
                                             </GridItem>
                                             <GridItem rowSpan={1} colSpan={8} bg=''>
@@ -380,7 +380,7 @@ const Assessment2 = (props: Props) => {
                                                     h='full'
                                                     align='center'
                                                 >
-                                                    {result >= 18 && result <= 25 ? <b>เครียดสูงกว่าปกติเล็กน้อย&nbsp;&nbsp;👈</b> : <>เครียดสูงกว่าปกติเล็กน้อย</>}
+                                                    {result >= 13 && result <= 18 ? <b>มีอาการของโรคซึมเศร้า ระดับปานกลาง&nbsp;&nbsp;👈</b> : <>เครียดสูมีอาการของโรคซึมเศร้า ระดับปานกลาง</>}
                                                 </Flex>
                                             </GridItem>
                                         </>
@@ -392,7 +392,7 @@ const Assessment2 = (props: Props) => {
                                                     justify='center'
                                                     align='center'
                                                 >
-                                                    {result >= 26 && result <= 29 ? <b>26 - 29</b> : <>26 - 29</>}
+                                                    {result >= 19 ? <b>{`> 19`}</b> : <>{`> 19`}</>}
                                                 </Flex>
                                             </GridItem>
                                             <GridItem rowSpan={1} colSpan={8} bg=''>
@@ -401,28 +401,7 @@ const Assessment2 = (props: Props) => {
                                                     h='full'
                                                     align='center'
                                                 >
-                                                    {result >= 26 && result <= 29 ? <b>เครียดปานกลาง&nbsp;&nbsp;👈</b> : <>เครียดปานกลาง</>}
-                                                </Flex>
-                                            </GridItem>
-                                        </>
-                                        <>
-                                            <GridItem rowSpan={1} colSpan={4} bg=''>
-                                                <Flex
-                                                    w='full'
-                                                    h='full'
-                                                    justify='center'
-                                                    align='center'
-                                                >
-                                                    {result >= 30 ? <b>30 ขึ้นไป</b> : <>30 ขึ้นไป</>}
-                                                </Flex>
-                                            </GridItem>
-                                            <GridItem rowSpan={1} colSpan={8} bg=''>
-                                                <Flex
-                                                    w='full'
-                                                    h='full'
-                                                    align='center'
-                                                >
-                                                    {result >= 30 ? <b>เครียดมาก&nbsp;&nbsp;👈</b> : <>เครียดมาก</>}
+                                                    {result >= 19? <b>มีอาการของโรคซึมเศร้า ระดับรุนแรง&nbsp;&nbsp;👈</b> : <>มีอาการของโรคซึมเศร้า ระดับรุนแรง</>}
                                                 </Flex>
                                             </GridItem>
                                         </>
