@@ -131,7 +131,7 @@ export const AboutUsComponent = (props: Props) => {
                             pic={'nutProfile'}
                             nameColor={'#957DAD'}
                             github={'https://github.com/vextion01'}
-                            instagram={'https://www.instagram.com/nt004/'}
+                            instagram={'https://www.instagram.com/nt.004/'}
                         />
                         <BlockProfile
                             name={'ติณณภพ มารวิชัย'}
