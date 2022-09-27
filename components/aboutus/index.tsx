@@ -2,8 +2,6 @@ import { Badge, Box, Button, Center, Container, Flex, Heading, SimpleGrid, Stack
 import Link from 'next/link';
 import React, { ReactNode, useState } from 'react'
 import { FaInstagram, FaLinkedin, FaGithub, FaCode } from 'react-icons/fa';
-import { AiOutlineGoogle } from 'react-icons/Ai';
-import Head from 'next/head';
 
 type Props = {}
 
@@ -259,9 +257,7 @@ export const BlockProfile = (props: BlockProfileProps) => {
                     {props.instagram && <SocialButton label={'Instagram'} href={props.instagram ?? ''}>
                         <FaInstagram />
                     </SocialButton>}
-                    {props.mail && <SocialButton label={'Instagram'} href={props.mail ?? ''}>
-                        <AiOutlineGoogle />
-                    </SocialButton>}
+
                 </Stack>
 
             </Box>
