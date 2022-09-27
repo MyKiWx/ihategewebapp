@@ -91,9 +91,22 @@ export const AboutUsComponent = (props: Props) => {
                             github={'https://github.com/dewmonk'}
                             instagram={'https://www.instagram.com/deww_natthaphong/'}
                         />
-                        {/* <BlockProfile name={''} job={''} pic={''} nameColor={'#'} /> */}
-                        <BlockProfile name={'ศุภชัย ยะราไสย์'} job={'Back-end Developer'} pic={'ohmProfile'} nameColor={'#ee7752'} />
-                        <BlockProfile name={'จักรพรรดิ์ บุญวิรัตน์'} job={'Designer'} pic={'bosProfile'} nameColor={'#cc7a22'} />
+                        <BlockProfile
+                            name={'ศุภชัย ยะราไสย์'}
+                            job={'Back-end Developer'}
+                            pic={'ohmProfile'}
+                            nameColor={'#ee7752'}
+                            github={'https://github.com/ohmmyaeng'}
+                            instagram={'https://www.instagram.com/_ohmarsy/'}
+                        />
+                        <BlockProfile
+                            name={'จักรพรรดิ์ บุญวิรัตน์'}
+                            job={'Designer'}
+                            pic={'bosProfile'}
+                            nameColor={'#cc7a22'}
+                            github={'https://github.com/jakkapatB'}
+                            instagram={'https://www.instagram.com/jakkapat__/'}
+                        />
                     </SimpleGrid>
                     <Divider my={10} />
                     <Heading
@@ -104,11 +117,44 @@ export const AboutUsComponent = (props: Props) => {
                         # ทีมเอกสาร
                     </Heading>
                     <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 2, md: 10 }} >
-                        <BlockProfile name={'ชานน วิริยธนชิต'} job={'รายงานบทที่ 2'} pic={'nonProfile'} nameColor={'#C56E90'} />
-                        <BlockProfile name={'ณัฐวุฒิ แจ้งอรุณ'} job={'รายงานบทที่ 1, 4'} pic={'nutProfile'} nameColor={'#957DAD'} />
-                        <BlockProfile name={'ติณณภพ มารวิชัย'} job={'รายงานบทที่ 1, 4'} pic={'poProfile'} nameColor={'#DEB3DF'} />
-                        <BlockProfile name={'ปริญญา ชาบุญเรือง'} job={'รายงานบทที่ 3'} pic={'joProfile'} nameColor={'#C56E90'} />
-                        <BlockProfile name={'ทฤษฏี จิรลักษณวงศ์'} job={'รายงานบทที่ 3'} pic={'baseProfile'} nameColor={'#A4DEAD'} />
+                        <BlockProfile
+                            name={'ชานน วิริยธนชิต'}
+                            job={'รายงานบทที่ 2'}
+                            pic={'nonProfile'}
+                            nameColor={'#C56E90'}
+                            github={'https://github.com/ChanomKhaimuk'}
+                            instagram={'https://www.instagram.com/_nonnicha_/'}
+                        />
+                        <BlockProfile
+                            name={'ณัฐวุฒิ แจ้งอรุณ'}
+                            job={'รายงานบทที่ 1, 4'}
+                            pic={'nutProfile'}
+                            nameColor={'#957DAD'}
+                            github={'https://github.com/vextion01'}
+                            instagram={'https://www.instagram.com/nt004/'}
+                        />
+                        <BlockProfile
+                            name={'ติณณภพ มารวิชัย'}
+                            job={'รายงานบทที่ 1, 4'}
+                            pic={'poProfile'}
+                            nameColor={'#DEB3DF'}
+                            github={'https://github.com/yeahyouknowmeimmafuckingtdxii'}
+                            instagram={'https://www.instagram.com/yeahyouknowmeimmafuckingtdxii/'}
+                        />
+                        <BlockProfile
+                            name={'ปริญญา ชาบุญเรือง'}
+                            job={'รายงานบทที่ 3'}
+                            pic={'joProfile'}
+                            nameColor={'#C56E90'}
+                        />
+                        <BlockProfile
+                            name={'ทฤษฏี จิรลักษณวงศ์'}
+                            job={'รายงานบทที่ 3'}
+                            pic={'baseProfile'}
+                            nameColor={'#A4DEAD'}
+                            github={'https://github.com/tissadee'}
+                            instagram={'https://www.instagram.com/bastevos/'}
+                        />
                     </SimpleGrid>
 
                 </Container>
