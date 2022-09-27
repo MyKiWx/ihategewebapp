@@ -29,7 +29,7 @@ import {
     HStack,
 } from '@chakra-ui/react';
 import { connectFirestoreEmulator, doc, setDoc } from 'firebase/firestore';
-import { Head } from 'next/document';
+import Head from 'next/head';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import FadeIn from 'react-fade-in';

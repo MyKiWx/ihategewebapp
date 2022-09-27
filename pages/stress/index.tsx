@@ -223,7 +223,7 @@ const Stress = (props: Props) => {
                         <Text
                             fontSize={'2xl'}
                         >
-                            ขอขอบคุณ ข้อมูลจาก : <b><a style={{ color: 'blue' }} href="https://www.rama.mahidol.ac.th/ramamental/generalknowledge/general/05142014-1901" target={"_blank"}>rama.mahidol.ac.th 🙏</a></b>
+                            ขอขอบคุณ ข้อมูลจาก : <b><a style={{ color: 'blue' }} href="https://www.rama.mahidol.ac.th/ramamental/generalknowledge/general/05142014-1901" target={"_blank"} rel="noreferrer">rama.mahidol.ac.th 🙏</a></b>
                         </Text>
                     </Flex>
                 </Box>
