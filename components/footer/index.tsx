@@ -77,7 +77,7 @@ export default function SmallCentered() {
 
                 </Box>
 
-                <Stack direction={'row'} spacing={8}>
+                <Stack direction={{base: 'column', md: 'row'}} spacing={8}>
                     <Link href={'/'}><a>หนัาหลัก</a></Link>
                     <Link href={'/stress'}><a>ความเครียด</a></Link>
                     <Link href={'/assessment'}><a>แบบประเมิน</a></Link>
