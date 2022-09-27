@@ -354,8 +354,9 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
                                 <a>
                                     <Box
                                         py={2}
-                                        children={child.label}
-                                    />
+                                    >
+                                        {child.label}
+                                    </Box>
                                 </a>
                             </Link>
                         ))}
