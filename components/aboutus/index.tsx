@@ -105,7 +105,7 @@ export const AboutUsComponent = (props: Props) => {
                             pic={'bosProfile'}
                             nameColor={'#cc7a22'}
                             github={'https://github.com/jakkapatB'}
-                            instagram={'https://www.instagram.com/jakkapat__/'}
+                            instagram={'https://www.instagram.com/jakkapat__________/'}
                         />
                     </SimpleGrid>
                     <Divider my={10} />
