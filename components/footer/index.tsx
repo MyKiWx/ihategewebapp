@@ -15,9 +15,9 @@ import {
     Icon,
 } from '@chakra-ui/react';
 import { FaInstagram, FaLinkedin, FaGithub, FaCode } from 'react-icons/fa';
-import { TbBrandNextjs } from 'react-icons/Tb';
-import { SiFirebase, SiTypescript } from 'react-icons/Si';
-import { SiChakraui } from 'react-icons/Si';
+// import { TbBrandNextjs } from 'react-icons/Tb';
+// import { SiFirebase, SiTypescript } from 'react-icons/Si';
+// import { SiChakraui } from 'react-icons/Si';
 import { ReactNode } from 'react';
 import Link from 'next/link';
 
