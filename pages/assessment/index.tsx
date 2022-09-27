@@ -387,7 +387,7 @@ const Assessment = (props: Props) => {
                                                 ความเครียด
                                             </Heading>
                                             <Text color={contentTextColor} my={15} fontSize='sm'>
-                                                เป็นแบบสำรวจที่พวกเราจะนำไปวิเคราะห์ และนำมาใช้ใน <Badge colorScheme='green'>งานวิชา GE</Badge>
+                                                เป็นแบบสำรวจที่พวกเราจะนำไปวิเคราะห์ และนำมาใช้ใน <Badge colorScheme='purple'>งานวิชา GE</Badge>
 
                                             </Text>
                                             {(answer5.length > 0) ? <Badge position={'absolute'} bottom='30' left='30' colorScheme={'green'}>completed</Badge>
